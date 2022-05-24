@@ -15,7 +15,14 @@ class VC1: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func PopButtonAction(_ sender: Any) {
+        //pop 뒤로가기
+        self.navigationController?.popViewController(animated: true)
+        
+        // RootView까지 한번에 Pop
+        self.navigationController?.popToRootViewController(animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 
