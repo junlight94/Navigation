@@ -19,8 +19,7 @@ class VC1: UIViewController {
         //pop 뒤로가기
         self.navigationController?.popViewController(animated: true)
         
-        // RootView까지 한번에 Pop
-        self.navigationController?.popToRootViewController(animated: true)
+        
     }
     
     /*

@@ -1,5 +1,5 @@
 //
-//  VC2.swift
+//  VC2-1.swift
 //  Navigation
 //
 //  Created by 이준영 on 2022/05/24.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class VC2: UIViewController {
+class VC2_1: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,9 +15,9 @@ class VC2: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func MoveViewAction(_ sender: Any) {
-        let vc2_1 = VC2_1(nibName: "VC2-1", bundle: nil)
-        self.navigationController?.pushViewController(vc2_1, animated: true)
+    @IBAction func moveToRootAction(_ sender: Any) {
+        // RootView까지 한번에 Pop
+        self.navigationController?.popToRootViewController(animated: true)
     }
     
     /*

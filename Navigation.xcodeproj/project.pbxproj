@@ -20,6 +20,8 @@
 		08AB1146283CB644008EE298 /* RootChangeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08AB1144283CB644008EE298 /* RootChangeVC.xib */; };
 		08AB1149283CB97B008EE298 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AB1147283CB97B008EE298 /* MainVC.swift */; };
 		08AB114A283CB97B008EE298 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08AB1148283CB97B008EE298 /* MainVC.xib */; };
+		08AB114D283CC095008EE298 /* VC2-1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AB114B283CC095008EE298 /* VC2-1.swift */; };
+		08AB114E283CC095008EE298 /* VC2-1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08AB114C283CC095008EE298 /* VC2-1.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		08AB1144283CB644008EE298 /* RootChangeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootChangeVC.xib; sourceTree = "<group>"; };
 		08AB1147283CB97B008EE298 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		08AB1148283CB97B008EE298 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		08AB114B283CC095008EE298 /* VC2-1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC2-1.swift"; sourceTree = "<group>"; };
+		08AB114C283CC095008EE298 /* VC2-1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "VC2-1.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 				08AB113C283CB53F008EE298 /* VC1.xib */,
 				08AB113F283CB54A008EE298 /* VC2.swift */,
 				08AB1140283CB54A008EE298 /* VC2.xib */,
+				08AB114B283CC095008EE298 /* VC2-1.swift */,
+				08AB114C283CC095008EE298 /* VC2-1.xib */,
 				08AB1143283CB644008EE298 /* RootChangeVC.swift */,
 				08AB1144283CB644008EE298 /* RootChangeVC.xib */,
 				08AB1130283CB491008EE298 /* Assets.xcassets */,
@@ -149,6 +155,7 @@
 				08AB1134283CB491008EE298 /* LaunchScreen.storyboard in Resources */,
 				08AB1142283CB54A008EE298 /* VC2.xib in Resources */,
 				08AB1146283CB644008EE298 /* RootChangeVC.xib in Resources */,
+				08AB114E283CC095008EE298 /* VC2-1.xib in Resources */,
 				08AB1131283CB491008EE298 /* Assets.xcassets in Resources */,
 				08AB113E283CB53F008EE298 /* VC1.xib in Resources */,
 				08AB114A283CB97B008EE298 /* MainVC.xib in Resources */,
@@ -169,6 +176,7 @@
 				08AB1128283CB490008EE298 /* AppDelegate.swift in Sources */,
 				08AB1145283CB644008EE298 /* RootChangeVC.swift in Sources */,
 				08AB1141283CB54A008EE298 /* VC2.swift in Sources */,
+				08AB114D283CC095008EE298 /* VC2-1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
